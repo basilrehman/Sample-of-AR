@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Basil-Ur-Rehman\\Downloads\\Compressed\\test3\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v28\\values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Basil-Ur-Rehman\\.gradle\\caches\\transforms-2\\files-2.1\\30397297fca39770be98dd9a754af5da\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Basil-Ur-Rehman\\Downloads\\Compressed\\test3\\src\\main\\res\\values-v28\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "10",
+                        "endOffsets": "230"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "689",
+                        "endLines": "14",
+                        "endColumns": "10",
+                        "endOffsets": "862"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+Here we are explaining about combining of two platform one is Unity and second is Android studio.
+This is the sample of application which uses unity platform of with its plugin named as Vuforia,
+with the help of Vuforia plugin AR Environment was created in which multiple models appear according 
+to its respective buttons. Here is a question, how this will work with the help of android studio?
+For this here is the answer first we created exported file with the help of unity for android studio,
+by which is used as a project file because it does not have gradle.app instead of two gradle there is 
+one which is build.gradle(Module:<name>).
+Steps for application integration:
+1- Export android gradle file form Unity.
+2- Click Open Existing project through android studio.
+3- create an Activity which you want and make it launcher activity
+4- Goto manifest.xml write following code:
+	3.1- tools:replace="android:theme"
+	3.2- replace = "android:icon" (if needed)
+	3.3- android:theme="@style/Theme.AppCompat.Light"(theme you want)
+	3.4- remove intent filter from Unity activity
+5- Goto Build.gradle and erase appV7:28.0.0 like code
+6- clean project and rebuild
+app launched!!
+
+  
